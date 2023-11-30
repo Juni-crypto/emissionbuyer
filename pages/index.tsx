@@ -293,7 +293,7 @@ const Home: NextPage = () => {
                 <div className="form-group">
                   <Web3Button
                     contractAddress="0x34Db8Aa2D4364487C73FA6FbB9eA06Ee8f9E789f"
-                    action={addProvider}
+                    action={transferCredits}
                     className="btn btn-success"
                     isDisabled={ parseInt(creditBalance?.toString()) < parseInt(Credits?.toString()) || isNaN(parseInt(Credits?.toString())) || isProviderLoading}
                     style={{ marginBottom: "20px" }}
