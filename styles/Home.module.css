@@ -147,9 +147,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Adjust as needed */
+  height: fit-content;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  border: 1px solid #ffffff; /* Adjust border color as needed */
+  padding: 20px; /* Adjust padding as needed */
+  backdrop-filter: blur(10px); /* Adjust blur radius as needed */
+}
 .container {
   display: flex;
   flex-direction: column;
